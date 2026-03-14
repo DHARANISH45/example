@@ -1,0 +1,35 @@
+#skills {
+  background-color: black;
+}
+
+/* Base Card Styling */
+.skill-card {
+  position: relative;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Subtle Hover Glow */
+.group:hover {
+  box-shadow: 0 0 40px rgba(59, 130, 246, 0.03);
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+  #skills {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .text-4xl {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .motion-div {
+    animation: none !important;
+    transition: none !important;
+  }
+}
