@@ -448,7 +448,7 @@ const Contact = () => {
           <div className="hidden sm:block absolute -left-12 top-1/2 transform -translate-y-1/2 w-16 h-8 bg-primary/30 rounded-full blur-md"></div>
           <h2 className="text-2xl sm:text-4xl md:text-7xl font-black text-center relative inline-block">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-secondary uppercase">
-              Keep In Touch
+              Keep In Touch with me
             </span>
             <div className="absolute -bottom-2 left-0 w-full h-[3px] bg-gradient-to-r from-transparent via-primary to-transparent"></div>
           </h2>
